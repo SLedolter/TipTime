@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
     compileSdk 31
 
     defaultConfig {
